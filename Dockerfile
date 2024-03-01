@@ -1,8 +1,10 @@
-FROM alpine:3.14
+FROM alpine:3.19.1
 
-MAINTAINER Iku Iwasa "iku.iwasa@gmail.com"
+MAINTAINER Pradyumna Paranjape "pradyparanjpe@rediffmail.com"
 
-RUN apk update && apk add ca-certificates emacs
+RUN echo "nameserver 8.8.8.8" > /etc/resolv.conf \
+    && apk update \
+    && apk add ca-certificates emacs-nox
 
 WORKDIR /root
 
