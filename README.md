@@ -9,12 +9,12 @@ Forked gratefully from [iquiw/docker-alpine-emacs](https://github.com/iquiw/dock
 Emacs from Alpine community repository with MELPA setting.
 
 * Alpine Linux v3.19.1
-* Emacs version: [tag]
+* Emacs version: 29.3
 
 ## How to use this image
 
 ```console
-$ podman run -it docker.io/pradyparanjpe/alpine-emacs
+$ podman run -it docker.io/pradyparanjpe/alpine-emacs:latest
 ```
 
 ## Environment Variables
