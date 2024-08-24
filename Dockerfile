@@ -1,4 +1,4 @@
-FROM alpine:3.19.1
+FROM alpine:latest
 
 MAINTAINER Pradyumna Paranjape "pradyparanjpe@rediffmail.com"
 
