@@ -8,8 +8,8 @@ Forked gratefully from [iquiw/docker-alpine-emacs](https://github.com/iquiw/dock
 
 Emacs from Alpine community repository with MELPA setting.
 
-* Alpine Linux v3.20.2
-* Emacs version: 29.4
+* Alpine Linux v3.22
+* Emacs version: 30.1-r1
 
 ## How to use this image
 
